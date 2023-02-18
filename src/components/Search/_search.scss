@@ -1,0 +1,28 @@
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    height: 24px;
+    outline: none;
+    width: 100%;
+    margin: 0 15px;
+    border: none;
+
+
+}
+
+.search-button {
+    cursor: pointer;
+    padding: 5px;
+    background: rgb(224,243,255);
+    border: none;
+    border-radius: 50%;
+    transition: 0.3s;
+
+    &:hover {
+    background: rgb(185, 228, 255);
+
+    }
+}

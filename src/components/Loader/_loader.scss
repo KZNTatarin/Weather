@@ -1,0 +1,24 @@
+.loader {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    text-align: center;
+    height: 100px;
+    background-color: inherit;
+    border: dashed 2px rgb(4,38,62);
+    width: 100px;
+    border-radius: 50%;
+    animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
